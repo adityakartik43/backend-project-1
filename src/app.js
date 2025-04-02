@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 
-const app = exress()
+const app = express()
 
 app.use(cors(
     {
