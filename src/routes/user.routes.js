@@ -14,7 +14,6 @@ import {
 } from "../controllers/user.controller.js";
 import { upload } from "../middlewares/multer.middleware.js";
 import { verifyJWT } from "../middlewares/auth.middlewares.js";
-import multer from "multer";
 
 const router = express.Router();
 
